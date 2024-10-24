@@ -1,5 +1,6 @@
 import MyFooter from "../widgets/my_footer";
 import MyAppBar from "./widgets/my_app_bar";
+import { useEffect, useState } from "react";
 
 const Home = () => {
     return (

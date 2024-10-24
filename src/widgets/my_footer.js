@@ -1,12 +1,27 @@
+import "./my_footer.css";
+
 import logos from "../assets/images/logos-white.png";
+import payLogo from "../assets/images/paymentez-logo-1.png";
 
 const MyFooter = ()=>{
     return(
         <div className="footer">
             <div className="footer-about">
-                <h1>SOBRE BIOFEMME</h1>
+                <a
+                    className="about-biofemme-link"
+                    href="https://biofemme.com.ec/#sobre-biofemme"
+                    rel="noopener noreferrer"
+                >
+                    SOBRE BIOFEMME
+                </a>
                 <div className="separator"></div>
-                <h1>CONTACTO</h1>
+                <a
+                    className="contact-link"
+                    href="https://biofemme.com.ec/contacto/"
+                    rel="noopener noreferrer"
+                >
+                    CONTACTO
+                </a>
             </div>
             <div className="footer-credits">
                 <div className="credits-content">
@@ -20,9 +35,35 @@ const MyFooter = ()=>{
                     </div>
                     <div className="online-shop">
                         <h1>TIENDA ONLINE</h1>
+                            <a
+                                className="account-link"
+                                href="https://compras.biofemme.com.ec/mi-cuenta/"
+                                rel="noopener noreferrer"
+                            >
+                                Mi cuenta
+                            </a>
+                            <a
+                                className="terms-link"
+                                href="https://compras.biofemme.com.ec/terminos-y-condiciones/"
+                                rel="noopener noreferrer"
+                            >
+                                Términos y condiciones
+                            </a>
+                            <a
+                                className="politics-link"
+                                href="https://compras.biofemme.com.ec/terminos-y-condiciones/"
+                                rel="noopener noreferrer"
+                            >
+                                Políticas de envíos
+                            </a>
                     </div>
                     <div className="compra-segura">
                         <h1>COMPRA SEGURA</h1>
+                        <img
+                            src={payLogo}
+                            alt="pay-logos"
+                            className="pay-logos-img"
+                            style={{ width: "180px", height: "auto" }}/>
                     </div>
                 </div>
             </div>
