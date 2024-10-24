@@ -4,11 +4,13 @@
     display: flex;
     flex-direction: column;
     color: var(--white);
+    font-family:sans-serif;
   }
   
   .footer h1 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
+    margin-bottom: 20px;
   }
   
   /* FOOTER NAV BAR */
@@ -18,7 +20,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 44px;
+    height: 38px;
   }
   
   .footer-about a {
@@ -39,7 +41,6 @@
     height: 240px;
     overflow: hidden;
     position: relative;
-    padding: 0 20px;
     justify-content: space-around;
     align-items: center;
   }
@@ -64,7 +65,11 @@
   .bio-info {
     flex: 2;
     text-align: center;
+    font-size: 12px;
+    line-height: 1.6;
+    max-width: 500px;
   }
+
   .online-shop {
     flex: 1;
     text-align: center;
@@ -74,15 +79,17 @@
     margin-left: 60px;
   }
   
-  .online-shop a{
+  .online-shop a {
     text-decoration: none;
     color: var(--white);
     font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 4px;
   }
   
   .compra-segura {
     flex: 1;
-    text-align: center;
+    text-align: start;
   }
   
   /* FOOTER COPYRIGHT INFO */
@@ -92,5 +99,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 14px;
+    font-size: 12px;
+    max-height: 35px;
   }

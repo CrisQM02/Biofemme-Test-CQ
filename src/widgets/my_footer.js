@@ -30,7 +30,7 @@ const MyFooter = ()=>{
                             src={logos}
                             alt="logos"
                             className="logos-img"
-                            style={{ width: "480px", height: "auto" }}/>
+                            style={{ width: "360px", height: "auto" }}/>
                         <p>BIOFEMME es una marca elaborada por CRESENS DERMOCOSMÉTICA y distribuida por LABORATORIOS ROCNARF.</p>
                     </div>
                     <div className="online-shop">
@@ -63,7 +63,7 @@ const MyFooter = ()=>{
                             src={payLogo}
                             alt="pay-logos"
                             className="pay-logos-img"
-                            style={{ width: "180px", height: "auto" }}/>
+                            style={{ width: "170px", height: "auto" }}/>
                     </div>
                 </div>
             </div>
