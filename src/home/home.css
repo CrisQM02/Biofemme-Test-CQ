@@ -1,0 +1,18 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.my-app-bar {
+    display: flex;
+    background-color: var(--main-pink);
+    height: 36px;
+    color: var(--white);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content {
+    flex: 1;
+}
