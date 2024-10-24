@@ -7,10 +7,38 @@
 .my-app-bar {
     display: flex;
     background-color: var(--main-pink);
-    height: 36px;
+    height: 34px;
     color: var(--white);
     justify-content: space-around;
     align-items: center;
+}
+
+.search-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.search-links {
+    display: flex;
+    align-items: center;
+}
+
+.search-links a{
+    color: var(--main-pink);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 10px;
+}
+
+.search-links a:hover{
+    color: var(--black);
+}
+
+.search-bar {
+    padding: 0 40px;
 }
 
 .content {
