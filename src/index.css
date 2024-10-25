@@ -1,10 +1,13 @@
 :root {
   --main-pink: #DB8993;
   --pink-dark: #C9777D;
+  --pink-darker: #B16B78;
   --pink-light: #F0B5B9;
   --pink-select: #C9727D;
   --gray-text: #AAAAAA;
+  --gray-light: #C8C8C8;
   --gray-medium: #969696;
+  --dark-gray: #B8B8B8;
   --dark-gray-text: #5D5D5D;
   --black: #000000;
   --white: #ffffff;

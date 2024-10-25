@@ -51,6 +51,23 @@ const Home = () => {
                         <ProductsSection/>
                     </div>
                 </div>
+                <div className="see-products">
+                    <div className="see-products-info">
+                        <h1>CONOCE TODOS LOS PRODUCTOS BIOFEMME</h1>
+                        <hr class="custom-separator" style={{margin:"10px 40px"}}></hr>
+                        <p onClick={() => window.location.href = "https://compras.biofemme.com.ec/productos/"}>VER TODOS</p>
+                        <hr class="custom-separator" style={{margin:"10px 40px"}}></hr>
+                    </div>
+                </div>
+                <div className="your-skin-type">
+                    <div className="your-skin-type-info">
+                        <h1>¿CONOCES TU TIPO DE PIEL?</h1>
+                        <h2>Te ayudamos a identificarla</h2>
+                        <hr class="custom-separator"style={{borderTopColor: "var(--dark-gray)"}}/>
+                        <p onClick={()=> window.location.href = "https://compras.biofemme.com.ec/descubre-tu-piel/"}>COMENZAR</p>
+                        <hr class="custom-separator"style={{borderTopColor: "var(--dark-gray)"}}/>
+                    </div>
+                </div>
             </div>
             <MyFooter/>
         </div>
