@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 import bioLogo from "../assets/images/Biofemme_Logo.png";
 import bioLogoWhite from "../assets/images/bio-logo-white.png";
 import MyCarrousel from "./widgets/my_carrousel/my_carrousel";
+import CategoryCard from "./widgets/categories/categories";
 
 const Home = () => {
     return (
@@ -40,7 +41,12 @@ const Home = () => {
                     </div>
                 </div>
                 <MyCarrousel/>
-                <h1>Content</h1>
+                <div className="products-section">
+                    <h1>CATEGORÍAS DE PRODUCTOS BIOFEMME</h1>
+                    <h2>DALE CLICK Y DESCUBRE LOS PRODUCTOS DE CADA UNA</h2>
+                    <CategoryCard/>
+                    <h1>PRODUCTOS NUEVOS</h1>
+                </div>
             </div>
             <MyFooter/>
         </div>
