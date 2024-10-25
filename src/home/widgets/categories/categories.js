@@ -38,7 +38,7 @@ const CategoryCard = () => {
           onMouseEnter={(e) => e.currentTarget.style.backgroundImage = `url(${category.hover})`}
           onMouseLeave={(e) => e.currentTarget.style.backgroundImage = `url(${category.img})`}
         >
-          <p>{category.name}</p>
+            <p>{category.label}</p> 
         </div>
       ))}
     </div>
