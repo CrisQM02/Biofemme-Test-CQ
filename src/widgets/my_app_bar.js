@@ -1,4 +1,4 @@
-import "../home.css";
+import "./my_app_bar.css";
 
 const MyAppBar = () =>{
 return(

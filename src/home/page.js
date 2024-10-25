@@ -1,7 +1,7 @@
 import "./home.css";
 
 import MyFooter from "../widgets/my_footer";
-import MyAppBar from "./widgets/my_app_bar";
+import MyAppBar from "../widgets/my_app_bar"
 import { useEffect, useState } from "react";
 
 import bioLogo from "../assets/images/Biofemme_Logo.png";

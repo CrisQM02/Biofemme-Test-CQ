@@ -4,14 +4,6 @@
     min-height: 100vh;
 }
 
-.my-app-bar {
-    display: flex;
-    background-color: var(--main-pink);
-    height: 34px;
-    color: var(--white);
-    justify-content: space-around;
-    align-items: center;
-}
 
 .search-section {
     display: flex;
