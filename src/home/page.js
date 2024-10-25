@@ -9,6 +9,7 @@ import bioLogoWhite from "../assets/images/bio-logo-white.png";
 import MyCarrousel from "./widgets/my_carrousel/my_carrousel";
 import CategoryCard from "./widgets/categories/categories";
 import ProductsSection from "./widgets/products/products";
+import MySearchField from "./widgets/search_field/search_field";
 
 const Home = () => {
     return (
@@ -37,7 +38,7 @@ const Home = () => {
                             PRODUCTOS
                         </a>
                         <div className="search-bar">
-                        Search Bar
+                            <MySearchField/>
                     </div>
                     </div>
                 </div>
