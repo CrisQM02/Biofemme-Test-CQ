@@ -8,6 +8,7 @@ import bioLogo from "../assets/images/Biofemme_Logo.png";
 import bioLogoWhite from "../assets/images/bio-logo-white.png";
 import MyCarrousel from "./widgets/my_carrousel/my_carrousel";
 import CategoryCard from "./widgets/categories/categories";
+import ProductsSection from "./widgets/products/products";
 
 const Home = () => {
     return (
@@ -45,7 +46,10 @@ const Home = () => {
                     <h1>CATEGORÍAS DE PRODUCTOS BIOFEMME</h1>
                     <h2>DALE CLICK Y DESCUBRE LOS PRODUCTOS DE CADA UNA</h2>
                     <CategoryCard/>
-                    <h1>PRODUCTOS NUEVOS</h1>
+                    <div className="new-products">
+                        <h1>PRODUCTOS NUEVOS</h1>
+                        <ProductsSection/>
+                    </div>
                 </div>
             </div>
             <MyFooter/>

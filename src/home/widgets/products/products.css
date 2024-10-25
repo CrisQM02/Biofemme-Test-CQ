@@ -1,0 +1,55 @@
+.products-home-section {
+    display: flex;
+    margin: 40px;
+    gap: 40px;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    position: relative;
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.product-card:hover{
+    box-shadow: inset 2px 2px 5px rgba(184, 184, 184, 0.3), inset 0px 0px 5px rgba(184, 184, 184, 0.3);
+}
+
+.product-info {
+    margin: 0;
+    line-height: 0.5;
+}
+
+.title {
+    color: var(--pink-dark);
+    font-size: 16px;
+}
+
+.type {
+    color: var(--pink-dark);
+    font-size: 14px;
+}
+
+.description {
+    color: var(--gray-medium);
+    font-size: 14px;
+}
+
+.price {
+    color: var(--dark-gray-text);
+    font-size: 14px;
+}
+
+.car-label {
+    color: var(--dark-gray-text);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.car-label :hover{
+    color: var(--main-pink);
+}

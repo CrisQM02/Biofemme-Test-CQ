@@ -57,3 +57,13 @@
     font-weight: 400;
     font-size: 18px;
 }
+
+.new-products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new-products h1{
+    margin: 20px;
+}

@@ -30,11 +30,12 @@ const CategoryCard = () => {
     <div className="categories">
       {categories.map((category, index) => (
         <div 
-          key={index} 
-          className="category-card" 
-          style={{ 
+          key = {index} 
+          className = "category-card" 
+          style = {{ 
             backgroundImage: `url(${category.img})`
           }}
+          onClick={() => window.location.href = category.url}
           onMouseEnter={(e) => e.currentTarget.style.backgroundImage = `url(${category.hover})`}
           onMouseLeave={(e) => e.currentTarget.style.backgroundImage = `url(${category.img})`}
         >
