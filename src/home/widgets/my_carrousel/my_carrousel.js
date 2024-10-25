@@ -15,61 +15,88 @@ const data = [
     {id: 5, url: c5},
 ]
 
-
-
 const MyCarrousel = () => {
     const imgList = useRef();
     const [currentIdx, setCurrentIdx] = useState(0);
+    const [isVisible, setIsVisible] = useState(true);
+
+    useEffect(() => {
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                setIsVisible(entry.isIntersecting);
+            },
+            { threshold: 0.1 }
+        );
+
+        if (imgList.current) {
+            observer.observe(imgList.current);
+        }
+
+        return () => {
+            if (imgList.current) {
+                observer.unobserve(imgList.current);
+            }
+        };
+    }, []);
 
     useEffect(() => {
         const listNode = imgList.current;
-        const imgNode = listNode.querySelectorAll("li > img")[currentIdx];
+        const imgNode = listNode.querySelectorAll("li")[currentIdx];
 
-        if(imgNode){
+        if (imgNode) {
             imgNode.scrollIntoView({
                 behavior: "smooth",
                 block: "nearest",
                 inline: "center",
-            })
+            });
         }
-    },[currentIdx])
+    }, [currentIdx]);
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            if (isVisible) {
+                setCurrentIdx((idx) => (idx + 1) % data.length);
+            }
+        }, 6000);
+
+        return () => clearInterval(interval);
+    }, [isVisible]);
 
     const scrollToImage = (direction) => {
-
-        if (direction === "prev") {
-            setCurrentIdx(idx => {
-                const isFirst = currentIdx === 0;
-                return isFirst ? data.length - 1 : idx - 1;
-            })
-        } else {
-            setCurrentIdx(idx => {
-                const isLast = currentIdx === data.length - 1;
-                return isLast ? 0 : idx + 1;
-            })
+        if (isVisible) {
+            if (direction === "prev") {
+                setCurrentIdx((idx) => (idx === 0 ? data.length - 1 : idx - 1));
+            } else {
+                setCurrentIdx((idx) => (idx === data.length - 1 ? 0 : idx + 1));
+            }
         }
-    }
+    };
 
-    return(
+    return (
         <div className="my-carrousel">
             <div className="slider-container">
-                <div className="leftArrow" onClick={(e)=> {e.preventDefault(); scrollToImage('prev')}}>{"<"}</div>
-                <div className="rightArrow" onClick={(e)=>{e.preventDefault(); scrollToImage('next')}}>{">"}</div>
-                <div className="container-images">
-                    <ul ref={imgList}>
-                        {data.map((i) => {
-                            return <li key= {i.id}>
+                <div className="leftArrow" onClick={(e) => {e.preventDefault(); scrollToImage("prev")}}>{"<"}</div>
+                <div className="rightArrow" onClick={(e) => {e.preventDefault(); scrollToImage("next")}}>{">"}</div>
+                <div className="container-images" ref={imgList}>
+                    <ul style={{ display: "flex" }}>
+                        {data.map((i, index) => (
+                            <li
+                                key={i.id}
+                                style={{
+                                    width: "100%",
+                                }}
+                            >
                                 <img
                                     src={i.url}
                                     style={{ width: "auto", height: "436px" }}
                                 />
                             </li>
-                        })}
+                        ))}
                     </ul>
                 </div>
             </div>
-            
         </div>
-    )
-}
+    );
+};
 
 export default MyCarrousel;
