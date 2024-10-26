@@ -3,6 +3,9 @@ import p2 from "../assets/images/products_images/p2-Sunscreen-50.jpg";
 import p3 from "../assets/images/products_images/p3-BBOIL.jpg";
 import p4 from "../assets/images/products_images/p4-Mini-Kit.jpg";
 
+import g1 from "../assets/images/products_gifs/g1-serum-tensor.gif";
+import g3 from "../assets/images/products_gifs/g3-bio-beauty-oil.gif";
+
 
 const products = [
     {id: 1, name: "LIFTING SERUM", type: "Sérum Tensor", description: "Proage | Todo tipo de piel",
@@ -14,7 +17,8 @@ const products = [
                 "Aplicar y extender sobre cara, cuello y escote, incluyendo contorno de ojos y párpados antes del maquillaje."]}],
         ingredients: [{title: null, 
             list: ["• Tens’ Up™", "• Neosome EM Ultrafill", '• Partículas “Soft Focus”']}],
-        price: 21.57, oldPrice: null, img: p1},
+        price: 21.57, oldPrice: null, img: p1, gif: g1, useInfo:["SPA"],
+        properties: "BioFemme® Lifting Sérum es una fórmula innovadora que proporciona a la piel, instantáneamente, un efecto lifting y antiarrugas, otorgándole una textura uniforme que permita la aplicación del maquillaje en las mejores condiciones, y que este dure más tiempo."},
 
 
 
@@ -31,7 +35,8 @@ const products = [
             ]}],
         ingredients: [{title: null, 
             list:["• Resconcept 50+", "• Ácido Hialurónico", "• Aloe Vera Gel"]}],
-        price: 24.64, oldPrice: null, img: p2},
+        price: 24.64, oldPrice: null, img: p2, gif: null, useInfo:null,
+        properties: "BioFemme® Sunscreen 50+ es eficaz y seguro para la piel frente a las radiaciones solares. Tiene alta protección y efecto hidratante, ideal para prevenir el envejecimiento cutáneo ocasionado por el sol. Además, tiene textura fluida, tacto suave y sedoso, es de absorción inmediata y de efecto invisible y matificante.\nSu Ingrediente Bio-Activo de alta tecnología, Resconcept Sun 50+, proporciona un alto efecto filtrante de las radiaciones solares UVB y UVA que evita las arrugas y el envejecimiento cutáneo debido al sol.\nBioFemme® Sunscreen 50+ es resistente al agua y contiene Ingredientes Bio-Activos en altas concentraciones: Ácido Hialurónico que lo convierte en hidratante y proage, y, Aloe Vera Gel, activo refrescante, calmante, anti-irritante, anti-inflamatorio y protector cutáneo."},
 
 
 
@@ -66,7 +71,8 @@ const products = [
         }],
         ingredients: [{title: null, 
             list: ["• Vitamina E", "• Aceite de Nuez de Brasil", "• Aceite de Chía", "• Aceite de Argán", "• Aceite de Abisinia", "• Aceite de Macadamia", "• Aceite de Borraja", "• Aceite de Camellia Japónica, Tsubaki"]}],
-        price: 16.42, oldPrice: null, img: p3},
+        price: 16.42, oldPrice: null, img: p3, gif:g3, useInfo:["SPA","LOTION","HAIR"],
+        properties: "Para la creación de BioFemme® Bio Beauty Oil se han unido la vitamina E y siete aceites procedentes de cinco continentes: Aceite de Nuez de Brasil y Chía (América), Argán y Abisinia (África), Macadamia (Oceanía), Borraja (Europa), y Camellia Japónica (Asia). Su tacto satinado y no graso es como seda para piel y además aporta brillo y flexibilidad al cabello. En un solo gesto hidrata, nutre y embellece. Su delicado aroma con gotas de vainilla te aleja de la rutina diaria y te lleva a un momento exclusivo de relajación y comodidad."},
 
 
 
@@ -100,7 +106,8 @@ const products = [
                 list:["• Niacinamide PC", "• Agua de Azahar"]},
             {title: "GEL-CRÈME HYDRATANT", 
                 list: ["• Epidermosil", "• Bicosome FS"]}],
-        price: 15.00, oldPrice: 20.70, img: p4},
+        price: 15.00, oldPrice: 20.70, img: p4, gif:null, useInfo:null,
+        properties: "Descubre las propiedades de cada producto que contiene nuestro BioFemme Mini Kit:\n• BioFemme® Eye Makeup Remover elimina suavemente el maquillaje de ojos, incluso las fórmulas resistentes al agua. Es de sensación no grasa y tiene un beneficio plus, fortalece y ayuda a que crezcan las pestañas.\n• BioFemme® Eau Micellaire es un agua limpiadora única con propiedades extraordinarias que elimina todo tipo de impurezas y restos de maquillaje sin necesidad de enjuague posterior.\nContiene activos, entre ellos Niacinamide PC, que hacen que su uso continuo mejore el aspecto general de la piel, ayudando a aclarar las manchas, unificando el tono de la piel, y dándole luminosidad. También mejora las imperfecciones cutáneas, la elasticidad y las arrugas.\nContiene Agua de Azahar, poderoso tonificante y purificante. Está indicado para todo tipo de piel, incluso las más delicadas. Evita el envejecimiento y además, en pieles grasas, regula la secreción sebácea. Deja la piel completamente limpia, suave, hidratada y preparada para cualquier tratamiento posterior.\n• BioFemme® Gel Crème Hydratante proporciona una sensación de frescura e hidratación inmediata y duradera. Su acabo sedoso mantiene la piel matificada y libre de grasa durante el día. Su fórmula única contiene activos de tamaño nanométrico y Ácido Hialurónico, capaces de penetrar entre las células de la piel y actuar en profundidad, estimulando la producción natural de colágeno y consiguiendo combatir las arrugar y prevenir su aparición."},
 ]
 
 export default products;

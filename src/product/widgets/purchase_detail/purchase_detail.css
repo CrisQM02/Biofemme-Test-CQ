@@ -24,8 +24,7 @@
     margin: 0;
 }
 
-/* ADD CART BUTTON*/
-
+/* ADD CART BUTTON */
 .add-cart-btn {
     display: flex;
     align-items: center;
@@ -46,6 +45,18 @@
     margin: 0;
 }
 
-.add-cart-btn p{
+.add-cart-btn p {
     margin: 0;
+}
+
+/* ICONO WHATSAPP */
+.ws-icon {
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    transition: filter 0.1s ease;
+}
+
+.ws-icon:hover {
+    filter: brightness(100%) saturate(100%) contrast(120%) hue-rotate(50deg);
 }
