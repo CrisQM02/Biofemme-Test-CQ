@@ -1,7 +1,8 @@
 import "./home.css";
 
 import MyFooter from "../widgets/my_footer";
-import MyAppBar from "../widgets/my_app_bar"
+import MyAppBar from "../widgets/my_app_bar";
+import Icon from "@mdi/react";
 import { useEffect, useState } from "react";
 
 import bioLogo from "../assets/images/Biofemme_Logo.png";
@@ -10,6 +11,8 @@ import MyCarrousel from "./widgets/my_carrousel/my_carrousel";
 import CategoryCard from "./widgets/categories/categories";
 import ProductsSection from "./widgets/products/products";
 import MySearchField from "./widgets/search_field/search_field";
+import { mdiCartOutline } from "@mdi/js";
+import { Tooltip } from "react-tooltip";
 
 const Home = () => {
     return (
@@ -39,7 +42,12 @@ const Home = () => {
                         </a>
                         <div className="search-bar">
                             <MySearchField/>
-                    </div>
+                        </div>
+                        <div className = "cart-section">
+                            <Icon className = "cart-icon" path={mdiCartOutline} size={0.8}/>
+                            <div className = "item-count">0</div>
+                            <span class="tooltip">Carrito</span>
+                        </div>
                     </div>
                 </div>
                 <MyCarrousel/>
