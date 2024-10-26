@@ -57,6 +57,11 @@
     color: var(--main-pink);
 }
 
+.car-label:hover .cart-icon {
+    transition: all 0.8s ease;
+    color: var(--main-pink);
+}
+
 .my-space {
     width: 10px;
 }
