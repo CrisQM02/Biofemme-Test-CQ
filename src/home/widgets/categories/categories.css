@@ -17,7 +17,7 @@
     font-size: 20px;
     padding: 10px;
     cursor: pointer;
-    transition: transform 0.3s ease-in-out;
+    transition: all 0.8s ease;
   }
   
   .categoria-card:hover {
