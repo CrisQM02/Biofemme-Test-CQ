@@ -1,4 +1,5 @@
 import ExpandableLabel from "../expandable_label/expandable_label";
+import PurchaseDetail from "../purchase_detail/purchase_detail";
 import "./product_description.css";
 
 const ProductDescription = ({product}) => {
@@ -33,6 +34,7 @@ const ProductDescription = ({product}) => {
                             {("$"+ product.price.toFixed(2))}
                         </p>
                     </div>
+                    <PurchaseDetail/>
                 </div>
             <div className="more-info">
                 <ExpandableLabel label={"MODO DE EMPLEO"} 
