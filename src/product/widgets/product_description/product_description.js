@@ -26,7 +26,12 @@ const ProductDescription = ({product}) => {
                         </ul>
                     </div>
                     <div className="price-section">
-                        {"$"+product.price}
+                        {<p className="old-price">
+                            {product.oldPrice !== null && (<s>{"$" + product.oldPrice.toFixed(2) + " "}</s>)}
+                        </p>}
+                        <p className="current-price">
+                            {("$"+ product.price.toFixed(2))}
+                        </p>
                     </div>
                 </div>
             <div className="more-info">
@@ -34,10 +39,10 @@ const ProductDescription = ({product}) => {
                     content={
                         <p className="steps-text">{
                             product.usage.map((u,index)=>(
-                                <div key={index}>
+                                <div key={`u-${index}`}>
                                     {u.title && <>{u.title}<br /></>}
                                     {u.steps.map((s,idx)=>(
-                                    <span key = {idx}>
+                                    <span key = {`step-${idx}`}>
                                         {`${idx+1}. ${s}`}<br />
                                     </span>       
                                     ))}
@@ -47,7 +52,23 @@ const ProductDescription = ({product}) => {
                             }</p>
                         
                     }/>
-                <ExpandableLabel label={"INGREDIENTES BIO-ACTIVOS"} content={"AAAA"}/>
+                <ExpandableLabel label={"INGREDIENTES BIO-ACTIVOS"} 
+                content={
+                    <p className="steps-text">{
+                        product.ingredients.map((ct,index)=>(
+                            <div key={`i-${index}`}>
+                                {ct.title && <>{ct.title}<br /></>}
+                                {ct.list.map((i,idx)=>(
+                                    <span key = {`step-${idx}`}>
+                                        {`${i}`}<br />
+                                    </span>       
+                                    ))}
+                                {<br />}
+                            </div>
+                        ))
+                        }</p>
+                    
+                }/>
             </div>
         </div>
     )

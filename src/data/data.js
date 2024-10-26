@@ -12,7 +12,8 @@ const products = [
         usage: [{title: null, 
             steps: ["Realizar la rutina de cuidado facial habitual.", 
                 "Aplicar y extender sobre cara, cuello y escote, incluyendo contorno de ojos y párpados antes del maquillaje."]}],
-        ingredients: [{title: null, list: ["Tens’ Up™", "Neosome EM Ultrafill", 'Partículas “Soft Focus”']}],
+        ingredients: [{title: null, 
+            list: ["• Tens’ Up™", "• Neosome EM Ultrafill", '• Partículas “Soft Focus”']}],
         price: 21.57, oldPrice: null, img: p1},
 
 
@@ -28,7 +29,8 @@ const products = [
                 "Aplicar una capa y extender sobre la superficie cutánea realizando ligeros masajes para que quede bien repartida sobre la superficie.",
                 "Repetir la aplicación del producto cada 3 horas o después de cada baño, secado o actividad deportiva.",
             ]}],
-        ingredients: [{title: null, list:["Resconcept 50+", "Ácido Hialurónico", "Aloe Vera Gel"]}],
+        ingredients: [{title: null, 
+            list:["• Resconcept 50+", "• Ácido Hialurónico", "• Aloe Vera Gel"]}],
         price: 24.64, oldPrice: null, img: p2},
 
 
@@ -62,7 +64,8 @@ const products = [
                 "Es un potente regenerador celular ideal para el tratamiento de pieles maduras, secas y sensibles."
             ],
         }],
-        ingredients: [{title: null, list: ["Vitamina E", "Aceite de Nuez de Brasil", "Aceite de Chía", "Aceite de Argán", "Aceite de Abisinia", "Aceite de Macadamia", "Aceite de Borraja", "Aceite de Camellia Japónica, Tsubaki"]}],
+        ingredients: [{title: null, 
+            list: ["• Vitamina E", "• Aceite de Nuez de Brasil", "• Aceite de Chía", "• Aceite de Argán", "• Aceite de Abisinia", "• Aceite de Macadamia", "• Aceite de Borraja", "• Aceite de Camellia Japónica, Tsubaki"]}],
         price: 16.42, oldPrice: null, img: p3},
 
 
@@ -91,9 +94,12 @@ const products = [
             steps: ["Aplicar mañana y noche en cara, cuello, y escote GEL-CRÉME HYDRATANT después de limpiar profundamente la piel."],
         },
         ],
-        ingredients: [{title: "EYE MAKEUP REMOVER", list:["Extracto de Camellia Japónica","Matrikina y Vitamina B5"]},
-            {title: "EAU MICELLAIRE", list:["Niacinamide PC", "Agua de Azahar"]},
-            {title: "GEL-CRÈME HYDRATANT", list: ["Epidermosil", "Bicosome FS"]}],
+        ingredients: [{title: "EYE MAKEUP REMOVER", 
+            list:["• Extracto de Camellia Japónica","• Matrikina y Vitamina B5"]},
+            {title: "EAU MICELLAIRE", 
+                list:["• Niacinamide PC", "• Agua de Azahar"]},
+            {title: "GEL-CRÈME HYDRATANT", 
+                list: ["• Epidermosil", "• Bicosome FS"]}],
         price: 15.00, oldPrice: 20.70, img: p4},
 ]
 

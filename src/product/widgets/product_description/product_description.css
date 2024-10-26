@@ -57,8 +57,14 @@
 
 /* PRICE */
 .price-section {
+    display: flex;
     color: var(--dark-gray-text);
     font-size: 26px;
+    gap: 10px;
+}
+
+.old-price {
+    color: var(--main-pink);
 }
 
 /* ///////////////// MORE INFO ///////////////// */
