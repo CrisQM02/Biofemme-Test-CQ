@@ -12,7 +12,6 @@ import CategoryCard from "./widgets/categories/categories";
 import ProductsSection from "./widgets/products/products";
 import MySearchField from "./widgets/search_field/search_field";
 import { mdiCartOutline } from "@mdi/js";
-import { Tooltip } from "react-tooltip";
 
 const Home = () => {
     return (
@@ -24,7 +23,7 @@ const Home = () => {
                         src={bioLogo}
                         alt="bioLogo"
                         className="bio-logo-img"
-                        style={{ width: "auto", height: "66px" }}/>
+                        style={{ width: "auto", height: "66px", marginLeft: "105px" }}/>
                     <div className="search-links">
                         <a
                             className="shop-link"

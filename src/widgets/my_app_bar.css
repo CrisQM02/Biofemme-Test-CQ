@@ -1,8 +1,50 @@
 .my-app-bar {
-    display: flex;
-    background-color: var(--main-pink);
-    height: 34px;
-    color: var(--white);
-    justify-content: space-around;
     align-items: center;
+    background-color: var(--main-pink);
+    color: var(--white);
+    display: flex;
+    height: 34px;
+    justify-content: space-around;
+}
+
+.social-net-icons {
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    margin-right: 180px;
+}
+
+.mdi-icons {
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.tiktok-icon {
+    cursor: pointer;
+    height: 16px;
+    margin-left: 5px;
+    margin-top: -2px;
+    width: 16px;
+}
+
+.bar-items {
+    display: flex;
+    font-size: 12px;
+    gap: 20px;
+    align-items: center;
+}
+
+.my-account {
+    display: flex;
+    align-items: center;
+}
+
+.my-account a {
+    color: white;
+}
+
+.sale-points {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
 }
