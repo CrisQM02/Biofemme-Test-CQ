@@ -1,3 +1,4 @@
+import ExpandableLabel from "../expandable_label/expandable_label";
 import "./product_description.css";
 
 const ProductDescription = ({product}) => {
@@ -29,12 +30,24 @@ const ProductDescription = ({product}) => {
                     </div>
                 </div>
             <div className="more-info">
-                <div className="expanded-span">
-                    <p>MODO DE EMPLEO</p>
-                </div>
-                <div className="expanded-span">
-                    <p>INGREDIENTES BIO-ACTIVOS</p>
-                </div>
+                <ExpandableLabel label={"MODO DE EMPLEO"} 
+                    content={
+                        <p className="steps-text">{
+                            product.usage.map((u,index)=>(
+                                <div key={index}>
+                                    {u.title && <>{u.title}<br /></>}
+                                    {u.steps.map((s,idx)=>(
+                                    <span key = {idx}>
+                                        {`${idx+1}. ${s}`}<br />
+                                    </span>       
+                                    ))}
+                                    {<br />}
+                                </div>
+                            ))
+                            }</p>
+                        
+                    }/>
+                <ExpandableLabel label={"INGREDIENTES BIO-ACTIVOS"} content={"AAAA"}/>
             </div>
         </div>
     )

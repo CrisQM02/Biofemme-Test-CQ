@@ -15,6 +15,10 @@ const products = [
         ingredients: [{title: null, list: ["Tens’ Up™", "Neosome EM Ultrafill", 'Partículas “Soft Focus”']}],
         price: 21.57, oldPrice: null, img: p1},
 
+
+
+
+
     {id: 2, name: "SUNSCREEN 50+", type: "Bloqueador Solar", description: "Protección | Todo tipo de piel",
         identifier: "sunscreen-50-bloqueador-solar-50",
         category: "Protección", effects: ["Acabado invisible", "Absorción inmediata", "Hidratante y Calmante", "Antiage"],
@@ -27,6 +31,10 @@ const products = [
         ingredients: [{title: null, list:["Resconcept 50+", "Ácido Hialurónico", "Aloe Vera Gel"]}],
         price: 24.64, oldPrice: null, img: p2},
 
+
+
+
+        
     {id: 3, name: "BIO BEAUTY OIL", type: "Aceite Seco Hidratante", description: "Hidratación | Todo tipo de piel",
         identifier: "bio-beauty-oil-aceite-seco-hidratante",
         category: "Hidratación", effects: ["Hidrata, nutre y suaviza", "Cuerpo, rostro y cabello", "Absorción Inmediata"],
@@ -57,6 +65,10 @@ const products = [
         ingredients: [{title: null, list: ["Vitamina E", "Aceite de Nuez de Brasil", "Aceite de Chía", "Aceite de Argán", "Aceite de Abisinia", "Aceite de Macadamia", "Aceite de Borraja", "Aceite de Camellia Japónica, Tsubaki"]}],
         price: 16.42, oldPrice: null, img: p3},
 
+
+
+
+        
     {id: 4, name: "BIOFEMME MINI KIT", type: "Mini Sizes", description: "Sets | Piel mixta a grasa",
         identifier: "biofemme-mini-kit",
         category: "BFKits", effects: null, 

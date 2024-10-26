@@ -1,0 +1,30 @@
+.expandable-label {
+    display: flex;
+    flex-direction: column;
+}
+
+.widget-header {
+    display: flex;
+    align-items: center;
+    color: var(--pink-dark);
+    font-size: 14px;
+    cursor: pointer;
+    height: 20px;
+}
+
+.arrow-icon {
+    transition: transform 0.8s ease;
+}
+
+.widget-content {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.8s ease, opacity 0.8s ease;
+}
+
+.widget-content.expanded {
+    max-height: 100%;
+    opacity: 1;
+    padding-top: 10px;
+}

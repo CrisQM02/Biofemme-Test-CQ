@@ -7,7 +7,7 @@
     gap: 28px;
 }
 
-/* /////////////////PRODUCTS INFO FIRST SECTION*/
+/* ///////////////// PRODUCTS INFO FIRST SECTION ///////////////// */
 
 /* HEADER */
 .main-info {
@@ -16,14 +16,14 @@
 
 
 .info-header h1{
-    color: var(--main-pink);
+    color: var(--pink-dark);
     margin: 0;
     font-weight: 400;
     font-size: 22px;
 }
 
 .info-header h2{
-    color: var(--main-pink);
+    color: var(--pink-dark);
     margin: 0;
     font-weight: 400;
     font-size: 16px;
@@ -59,4 +59,16 @@
 .price-section {
     color: var(--dark-gray-text);
     font-size: 26px;
+}
+
+/* ///////////////// MORE INFO ///////////////// */
+.more-info {
+    width: 260px;
+}
+
+/* STEPS */
+.steps-text {
+    color: var(--dark-gray-text);
+    font-size: 12px;
+    line-height: 20px;
 }
