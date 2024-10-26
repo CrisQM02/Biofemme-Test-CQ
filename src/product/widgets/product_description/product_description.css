@@ -1,0 +1,62 @@
+/* MAIN SECTION */
+.product-description-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    gap: 28px;
+}
+
+/* /////////////////PRODUCTS INFO FIRST SECTION*/
+
+/* HEADER */
+.main-info {
+    margin-right: 10%;
+}
+
+
+.info-header h1{
+    color: var(--main-pink);
+    margin: 0;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.info-header h2{
+    color: var(--main-pink);
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.info-header h3 {
+    color: var(--gray-text);
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* LIST*/
+.effects-section {
+    margin: 40px;
+}
+
+.effects-section ul {
+    padding-left: 20px;
+    margin: 0;
+    display: list-item !important;
+}
+
+.effects-section li {
+    list-style-type: disc !important;
+    margin-bottom: 2px;
+    color: var(--dark-gray-text);
+    display: list-item !important;
+    font-size: 12px;
+}
+
+/* PRICE */
+.price-section {
+    color: var(--dark-gray-text);
+    font-size: 26px;
+}

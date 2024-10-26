@@ -1,0 +1,46 @@
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* NAME BANNER */
+
+.product-name-banner {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--pink-lighter);
+    align-items: center;
+    color: var(--dark-gray-text);
+    padding: 40px;
+}
+
+.banner-title {
+    margin: 0;
+    font-weight: 400;
+}
+
+.banner-subtitle {
+    margin: 0;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+/* DIRECTORY */
+.directory {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15%;
+    font-size: 12px;
+    align-items: center;
+}
+
+.dir-tab {
+    color: var(--dark-gray-text);
+}
+
+.dir-sep {
+    color: var(--main-pink);
+    margin: 0 5px;
+}

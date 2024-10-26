@@ -3,6 +3,7 @@
   --pink-dark: #C9777D;
   --pink-darker: #B16B78;
   --pink-light: #F0B5B9;
+  --pink-lighter: #FFF0F4;
   --pink-select: #C9727D;
   --gray-text: #AAAAAA;
   --gray-light: #C8C8C8;
@@ -39,4 +40,11 @@ code {
   border-left: 2px solid var(--white);
   height: 24px;
   margin: 10px 2px;
+}
+
+.custom-separator {
+  border: none;
+  border-top: 1.5px solid;
+  border-top-color: var(--separator-color, var(--pink-darker));
+  width: 80%;
 }
