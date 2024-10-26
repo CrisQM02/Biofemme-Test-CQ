@@ -2,53 +2,21 @@ import "./home.css";
 
 import MyFooter from "../widgets/my_footer";
 import MyAppBar from "../widgets/my_app_bar";
-import Icon from "@mdi/react";
+
 import { useEffect, useState } from "react";
 
-import bioLogo from "../assets/images/Biofemme_Logo.png";
-import bioLogoWhite from "../assets/images/bio-logo-white.png";
 import MyCarrousel from "./widgets/my_carrousel/my_carrousel";
 import CategoryCard from "./widgets/categories/categories";
 import ProductsSection from "./widgets/products/products";
-import MySearchField from "./widgets/search_field/search_field";
-import { mdiCartOutline } from "@mdi/js";
+import SearchSection from "../widgets/search_field/search_section";
+
 
 const Home = () => {
     return (
         <div className="home">
             <MyAppBar/>
             <div className="content">
-                <div className="search-section">
-                    <img
-                        src={bioLogo}
-                        alt="bioLogo"
-                        className="bio-logo-img"
-                        style={{ width: "auto", height: "66px", marginLeft: "105px" }}/>
-                    <div className="search-links">
-                        <a
-                            className="shop-link"
-                            href="https://compras.biofemme.com.ec/"
-                            rel="noopener noreferrer"
-                        >
-                            TIENDA
-                        </a>
-                        <a
-                            className="products-link"
-                            href="https://compras.biofemme.com.ec/productos/"
-                            rel="noopener noreferrer"
-                        >
-                            PRODUCTOS
-                        </a>
-                        <div className="search-bar">
-                            <MySearchField/>
-                        </div>
-                        <div className = "cart-section">
-                            <Icon className = "cart-icon" path={mdiCartOutline} size={0.8}/>
-                            <div className = "item-count">0</div>
-                            <span class="tooltip">Carrito</span>
-                        </div>
-                    </div>
-                </div>
+                <SearchSection/>
                 <MyCarrousel/>
                 <div className="products-section">
                     <h1>CATEGORÍAS DE PRODUCTOS BIOFEMME</h1>
