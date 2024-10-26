@@ -6,15 +6,17 @@ import p4 from "../assets/images/products_images/p4-Mini-Kit.jpg";
 
 const products = [
     {id: 1, name: "LIFTING SERUM", type: "Sérum Tensor", description: "Proage | Todo tipo de piel",
+        identifier: "lifting-serum-serum-tensor",
         category: "Proage", effects: ["Efecto Inmediato", "Reduce Arrugas", "Make Up Primer"],
         contains: null,
         usage: [{title: null, 
             steps: ["Realizar la rutina de cuidado facial habitual.", 
                 "Aplicar y extender sobre cara, cuello y escote, incluyendo contorno de ojos y párpados antes del maquillaje."]}],
         ingredients: [{title: null, list: ["Tens’ Up™", "Neosome EM Ultrafill", 'Partículas “Soft Focus”']}],
-        price: 21.57, oldPrice: null, img: p1, url:"https://compras.biofemme.com.ec/producto/lifting-serum-serum-tensor/"},
+        price: 21.57, oldPrice: null, img: p1},
 
     {id: 2, name: "SUNSCREEN 50+", type: "Bloqueador Solar", description: "Protección | Todo tipo de piel",
+        identifier: "sunscreen-50-bloqueador-solar-50",
         category: "Protección", effects: ["Acabado invisible", "Absorción inmediata", "Hidratante y Calmante", "Antiage"],
         contains: null,
         usage: [{title: null, 
@@ -23,9 +25,10 @@ const products = [
                 "Repetir la aplicación del producto cada 3 horas o después de cada baño, secado o actividad deportiva.",
             ]}],
         ingredients: [{title: null, list:["Resconcept 50+", "Ácido Hialurónico", "Aloe Vera Gel"]}],
-        price: 24.64, oldPrice: null, img: p2, url:"https://compras.biofemme.com.ec/producto/sunscreen-50-bloqueador-solar-50/"},
+        price: 24.64, oldPrice: null, img: p2},
 
     {id: 3, name: "BIO BEAUTY OIL", type: "Aceite Seco Hidratante", description: "Hidratación | Todo tipo de piel",
+        identifier: "bio-beauty-oil-aceite-seco-hidratante",
         category: "Hidratación", effects: ["Hidrata, nutre y suaviza", "Cuerpo, rostro y cabello", "Absorción Inmediata"],
         contains: null,
         usage: [{title: "CORPORAL",
@@ -52,9 +55,10 @@ const products = [
             ],
         }],
         ingredients: [{title: null, list: ["Vitamina E", "Aceite de Nuez de Brasil", "Aceite de Chía", "Aceite de Argán", "Aceite de Abisinia", "Aceite de Macadamia", "Aceite de Borraja", "Aceite de Camellia Japónica, Tsubaki"]}],
-        price: 16.42, oldPrice: null, img: p3, url:"https://compras.biofemme.com.ec/producto/bio-beauty-oil-aceite-seco-hidratante/"},
+        price: 16.42, oldPrice: null, img: p3},
 
     {id: 4, name: "BIOFEMME MINI KIT", type: "Mini Sizes", description: "Sets | Piel mixta a grasa",
+        identifier: "biofemme-mini-kit",
         category: "BFKits", effects: null, 
         contains: ["EYE MAKEUP REMOVER (Desmaquillante Bifásico de Ojos)", "EAU MICELLAIRE (Agua Micelar)", "GEL-CRÈME HYDRATANT (Gel-Crema Hidratante)"],
         usage: [{title: "EYE MAKEUP REMOVER",
@@ -78,7 +82,7 @@ const products = [
         ingredients: [{title: "EYE MAKEUP REMOVER", list:["Extracto de Camellia Japónica","Matrikina y Vitamina B5"]},
             {title: "EAU MICELLAIRE", list:["Niacinamide PC", "Agua de Azahar"]},
             {title: "GEL-CRÈME HYDRATANT", list: ["Epidermosil", "Bicosome FS"]}],
-        price: 15.00, oldPrice: 20.70, img: p4, url:"https://compras.biofemme.com.ec/producto/biofemme-mini-kit/"},
+        price: 15.00, oldPrice: 20.70, img: p4},
 ]
 
 export default products;

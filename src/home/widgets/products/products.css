@@ -15,6 +15,10 @@
     cursor: pointer;
 }
 
+.product-card-link {
+    text-decoration: none;
+}
+
 .product-card:hover{
     box-shadow: inset 2px 2px 5px rgba(184, 184, 184, 0.3), inset 0px 0px 5px rgba(184, 184, 184, 0.3);
 }

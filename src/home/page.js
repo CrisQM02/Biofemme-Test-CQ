@@ -1,22 +1,18 @@
 import "./home.css";
 
 import MyFooter from "../widgets/my_footer";
-import MyAppBar from "../widgets/my_app_bar";
 
 import { useEffect, useState } from "react";
 
 import MyCarrousel from "./widgets/my_carrousel/my_carrousel";
 import CategoryCard from "./widgets/categories/categories";
 import ProductsSection from "./widgets/products/products";
-import SearchSection from "../widgets/search_field/search_section";
 
 
 const Home = () => {
     return (
         <div className="home">
-            <MyAppBar/>
             <div className="content">
-                <SearchSection/>
                 <MyCarrousel/>
                 <div className="products-section">
                     <h1>CATEGORÍAS DE PRODUCTOS BIOFEMME</h1>
@@ -45,7 +41,6 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <MyFooter/>
         </div>
     )
 }
