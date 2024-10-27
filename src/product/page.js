@@ -11,6 +11,7 @@ import hairIco from "../assets/images/htu-female-with-bangs.png";
 import Icon from "@mdi/react";
 import { mdiHelpCircleOutline } from '@mdi/js';
 import ProductValue from './widgets/product_value/product_value.js';
+import ProductInterestedCard from './widgets/product_card_interested/product_card_interested.js';
 
 
 const ProductPage = () => {
@@ -84,7 +85,15 @@ const ProductPage = () => {
                     BIO-ACTIVOS?</h1>
                 </div>
                 <div className = "help-info">
-                    <p>{product.properties}</p>
+                    <p className="bio-ingredients-act">{
+                        product.howIngAct.map((i,index)=>(
+                            <div key={`ing-${index}`}>
+                                {i.ingredient}<br />
+                                {i.info}
+                                <br />
+                                <br />
+                            </div>
+                    ))}</p>
                 </div>
             </div>
             <hr class="custom-separator" style={{borderTopColor: "var(--gray-light)", margin:"0px 200px", marginTop:"50px"}}></hr>
@@ -92,6 +101,7 @@ const ProductPage = () => {
             <hr class="custom-separator" style={{borderTopColor: "var(--gray-light)", margin:"50px 200px"}}></hr>
             <div className="also-interested-section">
                 <h1>TAMBIÉN TE PUEDE INTERESAR</h1>
+                <ProductInterestedCard productID={product.id}/>
             </div>
         </div>
     )

@@ -51,10 +51,10 @@ code {
 }
 
 @font-face {
-  font-family: comfortaa;
+  font-family: "comfortaa";
   src: url(./assets/fonts/Comfortaa-VariableFont_wght.ttf);
 }
 
 .comfortaa {
-  font-family: comfortaa;
+  font-family: "comfortaa";
 }

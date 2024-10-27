@@ -1,19 +1,20 @@
-import "./products.css"
+import "./product_card_interested.css";
+
+import products from "../../../data/data.js";
 import Icon from "@mdi/react";
 import { mdiCart } from "@mdi/js";
 
 import { Link } from 'react-router-dom';
 
-import products from "../../../data/data.js";
-
-const ProductsSection = () => {
+const ProductInterestedCard = ({productID}) => {
+    const newProducts = products.filter(product => product.id !== productID);
     return (
-        <div className="products-home-section">
-            {products.slice(0, 4).map((product)=>(
+        <div className="products-interested-section">
+            {newProducts.slice(0, 4).map((product)=>(
                 
                     <div
                     key = {product.id}
-                    className= "product-card">
+                    className= "product-interested-card">
                         <Link to = {`/producto/${product.identifier}`} className="product-card-link">
                         <img 
                             src = {product.img}
@@ -37,4 +38,4 @@ const ProductsSection = () => {
     )
 }
 
-export default ProductsSection;
+export default ProductInterestedCard;

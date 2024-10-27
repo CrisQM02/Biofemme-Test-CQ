@@ -99,7 +99,6 @@
 
 .help-section {
     display: flex;
-    align-items: center;
     gap: 40px;
     justify-content: center;
     padding: 40px;
@@ -113,13 +112,18 @@
 
 .help-title h1 {
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
+    font-family: "comfortaa";
+    line-height: 30px;
 }
 
 .help-info {
     width: 740px;
     color: var(--dark-gray-text);
-    font-size: 14px;
+    font-size: 12px;
+    text-align: justify;
+    line-height: 20px;
+    font-family: "comfortaa";
 }
 
 /* ALSO INTERESTED SECTION */

@@ -61,7 +61,7 @@
     color: var(--main-pink);
 }
 
-.car-label:hover .cart-icon {
+.car-label:hover .product-cart-icon {
     transition: all 0.8s ease;
     color: var(--main-pink);
 }
