@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.css": "/Biofemme-Test-CQ/static/css/main.a62819fa.css",
-    "main.js": "/Biofemme-Test-CQ/static/js/main.08079207.js",
-    "static/js/453.9d7ed0d6.chunk.js": "/Biofemme-Test-CQ/static/js/453.9d7ed0d6.chunk.js",
+    "main.css": "/Biofemme-Test-CQ/static/css/main.e173ddf2.css",
+    "main.js": "/Biofemme-Test-CQ/static/js/main.72f2a1f9.js",
+    "reactPlayerPreview.js": "/Biofemme-Test-CQ/static/js/reactPlayerPreview.b023cf17.chunk.js",
+    "static/js/453.90777e78.chunk.js": "/Biofemme-Test-CQ/static/js/453.90777e78.chunk.js",
     "static/media/g3-bio-beauty-oil.gif": "/Biofemme-Test-CQ/static/media/g3-bio-beauty-oil.a1319a7b9bab801ff1a2.gif",
     "static/media/g1-serum-tensor.gif": "/Biofemme-Test-CQ/static/media/g1-serum-tensor.51d077c46ab6d7ed865a.gif",
+    "static/media/g5-tonique-revitalisant-spray.gif": "/Biofemme-Test-CQ/static/media/g5-tonique-revitalisant-spray.351471883caea984e6ca.gif",
+    "static/media/Comfortaa-VariableFont_wght.ttf": "/Biofemme-Test-CQ/static/media/Comfortaa-VariableFont_wght.7b8c952927af2b0deacd.ttf",
     "static/media/p4-Mini-Kit.jpg": "/Biofemme-Test-CQ/static/media/p4-Mini-Kit.fdda18e0bc60d61d74e4.jpg",
     "static/media/NEW-Lifting-Serum-Carrousel.jpg": "/Biofemme-Test-CQ/static/media/NEW-Lifting-Serum-Carrousel.6ad7113c46deb5a40ca6.jpg",
     "static/media/footer-bf.jpg": "/Biofemme-Test-CQ/static/media/footer-bf.2e7d230ac893bc348575.jpg",
@@ -14,6 +17,7 @@
     "static/media/Bio-Beauty-Oil-Carrousel.jpg": "/Biofemme-Test-CQ/static/media/Bio-Beauty-Oil-Carrousel.5c941c773c5c3ec52f26.jpg",
     "static/media/Agua-Micelar-BioFemme-Carrousel.jpg": "/Biofemme-Test-CQ/static/media/Agua-Micelar-BioFemme-Carrousel.09fa418069e05b905289.jpg",
     "static/media/p1-lifting-serum.jpg": "/Biofemme-Test-CQ/static/media/p1-lifting-serum.c4500f1935fabfcf4632.jpg",
+    "static/media/p5-Tonique-Revitalisant-Spray.jpg": "/Biofemme-Test-CQ/static/media/p5-Tonique-Revitalisant-Spray.84ce39878f31a8e8dc8d.jpg",
     "static/media/categoria-Proage.jpg": "/Biofemme-Test-CQ/static/media/categoria-Proage.ffb841488faf34db969e.jpg",
     "static/media/conoce-tu-piel.jpg": "/Biofemme-Test-CQ/static/media/conoce-tu-piel.12fb4dafd3460c0caa9a.jpg",
     "static/media/p2-Sunscreen-50.jpg": "/Biofemme-Test-CQ/static/media/p2-Sunscreen-50.388a588e53936e8e4512.jpg",
@@ -31,12 +35,13 @@
     "static/media/whatsapp_icon.svg": "/Biofemme-Test-CQ/static/media/whatsapp_icon.f2c82ada308cf1c6df2b5e7c779d5d46.svg",
     "index.html": "/Biofemme-Test-CQ/index.html",
     "static/media/tiktok.svg": "/Biofemme-Test-CQ/static/media/tiktok.0ae5022dde2c8e9c4349cc0cf2478e5a.svg",
-    "main.a62819fa.css.map": "/Biofemme-Test-CQ/static/css/main.a62819fa.css.map",
-    "main.08079207.js.map": "/Biofemme-Test-CQ/static/js/main.08079207.js.map",
-    "453.9d7ed0d6.chunk.js.map": "/Biofemme-Test-CQ/static/js/453.9d7ed0d6.chunk.js.map"
+    "main.e173ddf2.css.map": "/Biofemme-Test-CQ/static/css/main.e173ddf2.css.map",
+    "main.72f2a1f9.js.map": "/Biofemme-Test-CQ/static/js/main.72f2a1f9.js.map",
+    "reactPlayerPreview.b023cf17.chunk.js.map": "/Biofemme-Test-CQ/static/js/reactPlayerPreview.b023cf17.chunk.js.map",
+    "453.90777e78.chunk.js.map": "/Biofemme-Test-CQ/static/js/453.90777e78.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a62819fa.css",
-    "static/js/main.08079207.js"
+    "static/css/main.e173ddf2.css",
+    "static/js/main.72f2a1f9.js"
   ]
 }
