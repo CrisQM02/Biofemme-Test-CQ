@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/Biofemme-Test-CQ/static/css/main.a62819fa.css",
+    "main.js": "/Biofemme-Test-CQ/static/js/main.f943abc5.js",
+    "static/js/453.9d7ed0d6.chunk.js": "/Biofemme-Test-CQ/static/js/453.9d7ed0d6.chunk.js",
+    "static/media/g3-bio-beauty-oil.gif": "/Biofemme-Test-CQ/static/media/g3-bio-beauty-oil.a1319a7b9bab801ff1a2.gif",
+    "static/media/g1-serum-tensor.gif": "/Biofemme-Test-CQ/static/media/g1-serum-tensor.51d077c46ab6d7ed865a.gif",
+    "static/media/p4-Mini-Kit.jpg": "/Biofemme-Test-CQ/static/media/p4-Mini-Kit.fdda18e0bc60d61d74e4.jpg",
+    "static/media/NEW-Lifting-Serum-Carrousel.jpg": "/Biofemme-Test-CQ/static/media/NEW-Lifting-Serum-Carrousel.6ad7113c46deb5a40ca6.jpg",
+    "static/media/footer-bf.jpg": "/Biofemme-Test-CQ/static/media/footer-bf.2e7d230ac893bc348575.jpg",
+    "static/media/CC-Cream-BioFemme-Carrousel.jpg": "/Biofemme-Test-CQ/static/media/CC-Cream-BioFemme-Carrousel.8a03005686c9078bad6c.jpg",
+    "static/media/Acne-Clear-Essentials-Carrousel.jpg": "/Biofemme-Test-CQ/static/media/Acne-Clear-Essentials-Carrousel.bcb1b464ebf250204893.jpg",
+    "static/media/ver-productos-biofemme.jpg": "/Biofemme-Test-CQ/static/media/ver-productos-biofemme.7c1ab02968a88c845443.jpg",
+    "static/media/Bio-Beauty-Oil-Carrousel.jpg": "/Biofemme-Test-CQ/static/media/Bio-Beauty-Oil-Carrousel.5c941c773c5c3ec52f26.jpg",
+    "static/media/Agua-Micelar-BioFemme-Carrousel.jpg": "/Biofemme-Test-CQ/static/media/Agua-Micelar-BioFemme-Carrousel.09fa418069e05b905289.jpg",
+    "static/media/p1-lifting-serum.jpg": "/Biofemme-Test-CQ/static/media/p1-lifting-serum.c4500f1935fabfcf4632.jpg",
+    "static/media/categoria-Proage.jpg": "/Biofemme-Test-CQ/static/media/categoria-Proage.ffb841488faf34db969e.jpg",
+    "static/media/conoce-tu-piel.jpg": "/Biofemme-Test-CQ/static/media/conoce-tu-piel.12fb4dafd3460c0caa9a.jpg",
+    "static/media/p2-Sunscreen-50.jpg": "/Biofemme-Test-CQ/static/media/p2-Sunscreen-50.388a588e53936e8e4512.jpg",
+    "static/media/categoria-proteccion.jpg": "/Biofemme-Test-CQ/static/media/categoria-proteccion.d5fb906e2360df872b64.jpg",
+    "static/media/categoria-Proage-hover.jpg": "/Biofemme-Test-CQ/static/media/categoria-Proage-hover.4aa2da7ec4893f473581.jpg",
+    "static/media/categoria-Hidratacion.jpg": "/Biofemme-Test-CQ/static/media/categoria-Hidratacion.5ad8be9d531913cc6b72.jpg",
+    "static/media/categoria-proteccion-hover.jpg": "/Biofemme-Test-CQ/static/media/categoria-proteccion-hover.695f00d3865f1ad92d4d.jpg",
+    "static/media/categoria-Limpieza.jpg": "/Biofemme-Test-CQ/static/media/categoria-Limpieza.726b5c3f57b75ac74154.jpg",
+    "static/media/categoria-Hidratacion-hover.jpg": "/Biofemme-Test-CQ/static/media/categoria-Hidratacion-hover.cf31892ad85a9cb394b2.jpg",
+    "static/media/categoria-acne.jpg": "/Biofemme-Test-CQ/static/media/categoria-acne.9d57bbe5061542dbc70c.jpg",
+    "static/media/logos-white.png": "/Biofemme-Test-CQ/static/media/logos-white.b551143be94e8dc6a89b.png",
+    "static/media/categoria-Limpieza-hover.jpg": "/Biofemme-Test-CQ/static/media/categoria-Limpieza-hover.539253b9038546440bb3.jpg",
+    "static/media/categoria-acne-hover.jpg": "/Biofemme-Test-CQ/static/media/categoria-acne-hover.d6aa7b7109ed919864e2.jpg",
+    "static/media/paymentez-logo-1.png": "/Biofemme-Test-CQ/static/media/paymentez-logo-1.3524988404e07c21721e.png",
+    "static/media/whatsapp_icon.svg": "/Biofemme-Test-CQ/static/media/whatsapp_icon.f2c82ada308cf1c6df2b5e7c779d5d46.svg",
+    "index.html": "/Biofemme-Test-CQ/index.html",
+    "static/media/tiktok.svg": "/Biofemme-Test-CQ/static/media/tiktok.0ae5022dde2c8e9c4349cc0cf2478e5a.svg",
+    "main.a62819fa.css.map": "/Biofemme-Test-CQ/static/css/main.a62819fa.css.map",
+    "main.f943abc5.js.map": "/Biofemme-Test-CQ/static/js/main.f943abc5.js.map",
+    "453.9d7ed0d6.chunk.js.map": "/Biofemme-Test-CQ/static/js/453.9d7ed0d6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a62819fa.css",
+    "static/js/main.f943abc5.js"
+  ]
+}
