@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Biofemme-Test-CQ/static/css/main.e173ddf2.css",
-    "main.js": "/Biofemme-Test-CQ/static/js/main.72f2a1f9.js",
+    "main.css": "/Biofemme-Test-CQ/static/css/main.74b6f1d0.css",
+    "main.js": "/Biofemme-Test-CQ/static/js/main.70a55bfe.js",
     "reactPlayerPreview.js": "/Biofemme-Test-CQ/static/js/reactPlayerPreview.b023cf17.chunk.js",
     "static/js/453.90777e78.chunk.js": "/Biofemme-Test-CQ/static/js/453.90777e78.chunk.js",
     "static/media/g3-bio-beauty-oil.gif": "/Biofemme-Test-CQ/static/media/g3-bio-beauty-oil.a1319a7b9bab801ff1a2.gif",
@@ -35,13 +35,13 @@
     "static/media/whatsapp_icon.svg": "/Biofemme-Test-CQ/static/media/whatsapp_icon.f2c82ada308cf1c6df2b5e7c779d5d46.svg",
     "index.html": "/Biofemme-Test-CQ/index.html",
     "static/media/tiktok.svg": "/Biofemme-Test-CQ/static/media/tiktok.0ae5022dde2c8e9c4349cc0cf2478e5a.svg",
-    "main.e173ddf2.css.map": "/Biofemme-Test-CQ/static/css/main.e173ddf2.css.map",
-    "main.72f2a1f9.js.map": "/Biofemme-Test-CQ/static/js/main.72f2a1f9.js.map",
+    "main.74b6f1d0.css.map": "/Biofemme-Test-CQ/static/css/main.74b6f1d0.css.map",
+    "main.70a55bfe.js.map": "/Biofemme-Test-CQ/static/js/main.70a55bfe.js.map",
     "reactPlayerPreview.b023cf17.chunk.js.map": "/Biofemme-Test-CQ/static/js/reactPlayerPreview.b023cf17.chunk.js.map",
     "453.90777e78.chunk.js.map": "/Biofemme-Test-CQ/static/js/453.90777e78.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e173ddf2.css",
-    "static/js/main.72f2a1f9.js"
+    "static/css/main.74b6f1d0.css",
+    "static/js/main.70a55bfe.js"
   ]
 }
