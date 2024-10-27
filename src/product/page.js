@@ -4,6 +4,14 @@ import products from "../data/data.js"
 import "./product.css";
 import ProductDescription from './widgets/product_description/product_description.js';
 
+import spaIco from "../assets/images/htu-spa.png";
+import lotionIco from "../assets/images/htu-locion-corporal.png";
+import hairIco from "../assets/images/htu-female-with-bangs.png";
+
+import Icon from "@mdi/react";
+import { mdiHelpCircleOutline } from '@mdi/js';
+import ProductValue from './widgets/product_value/product_value.js';
+
 
 const ProductPage = () => {
     const {identifier} = useParams();
@@ -27,6 +35,61 @@ const ProductPage = () => {
             </div>
             <hr class="custom-separator" style={{borderTopColor: "var(--gray-light)", margin:"5px 15%"}}></hr>
             <ProductDescription product={product}/>
+            <div className='how-to-use-section'>
+                <div className="how-to-use-icons-section">
+                    <h1>¿CÓMO USAR?</h1>
+                    {product.useInfo !== null && 
+                        <div className="how-to-use-icons">
+                        {product.useInfo.map((use) => {
+                            switch (use) {
+                                case "SPA":
+                                    return <img className="htu-icon" src={spaIco} alt="SPA" key={use} />;
+                                case "LOTION":
+                                    return <img className="htu-icon" src={lotionIco} alt="LOTION" key={use} />;
+                                case "HAIR":
+                                    return <img className="htu-icon" src={hairIco} alt="HAIR" key={use} />;
+                                default:
+                                    return null;
+                            }
+                        })}
+                    </div>
+                        }
+                </div>
+                <div className="how-to-use-media">
+                    {product.gif !== null && <div className="gif-section"><img className="my-gif" src={product.gif}/></div>}
+                </div>
+            </div>
+            <div className="separator-help">
+                <hr class="custom-separator" style={{borderTopColor: "var(--gray-light)", margin:"5px 20px"}}></hr>
+                <Icon className="help-icon" path={mdiHelpCircleOutline} size={1.5}/>
+                <hr class="custom-separator" style={{borderTopColor: "var(--gray-light)", margin:"5px 20px"}}></hr>
+            </div>
+            <div className="help-section">
+                <div className="help-title">
+                    <h1>CONOCE SUS PROPIEDADES</h1>
+                </div>
+                <div className = "help-info">
+                    <p>{product.properties.split('\n').map((linea, index) => (
+                        <span key={index}>
+                        {linea}
+                    <br />
+                    <br />
+                </span>
+                ))}</p>
+                </div>
+            </div>
+            <div className="help-section" style={{backgroundColor: "var(--pink-lighter)"}}>
+                <div className="help-title">
+                    <h1>¿CÓMO ACTÚAN LOS INGREDIENTES
+                    BIO-ACTIVOS?</h1>
+                </div>
+                <div className = "help-info">
+                    <p>{product.properties}</p>
+                </div>
+            </div>
+            <hr class="custom-separator" style={{borderTopColor: "var(--gray-light)", margin:"50px 200px"}}></hr>
+            <ProductValue product={product}/>
+            <hr class="custom-separator" style={{borderTopColor: "var(--gray-light)", margin:"50px 200px"}}></hr>
         </div>
     )
 }

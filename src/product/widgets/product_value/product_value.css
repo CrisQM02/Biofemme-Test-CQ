@@ -1,0 +1,41 @@
+.product-value {
+    display: flex;
+    flex-direction: column;
+    margin: 0 16%;;
+}
+
+.product-value h1{
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--dark-gray-text);
+}
+
+.product-value h2{
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--main-pink);
+}
+
+.grade-product {
+    display: flex;
+    width: 100%;
+}
+
+.grade-product-section {
+    border: 1px solid var(--gray-light);
+    padding: 20px;
+    margin: 40px;
+    width: 100%;
+}
+
+.grade-product-section h1 {
+    color: var(--black);
+    margin: 0;
+    font-size: 20px;
+}
+
+.grade-product-section p {
+    color: var(--black);
+    margin: 0;
+    font-size: 15px;
+}

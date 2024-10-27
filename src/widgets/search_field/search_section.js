@@ -32,7 +32,7 @@ const SearchSection = () => {
                 <MySearchField/>
             </div>
             <div className = "cart-section">
-                <Icon className = "cart-icon" path={mdiCartOutline} size={0.8}/>
+                <Icon className = "cart-icon-search" path={mdiCartOutline} size={0.8}/>
                 <div className = "item-count">0</div>
                 <span class="tooltip">Carrito</span>
             </div>

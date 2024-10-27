@@ -38,9 +38,86 @@
 
 .dir-tab {
     color: var(--dark-gray-text);
+    cursor: pointer;
 }
 
 .dir-sep {
     color: var(--main-pink);
     margin: 0 5px;
+}
+
+/* /////////////////////////// HOW TO USE /////////////////////////// */
+.how-to-use-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 160px;
+}
+
+.how-to-use-icons-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.how-to-use-icons-section h1 {
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--dark-gray-text);
+}
+
+.how-to-use-icons {
+    display: flex;
+    margin: 40px 0;
+    gap: 20px;
+}
+
+.htu-icon {
+    width: auto;
+    height: 50px;
+}
+
+
+.how-to-use-media {
+    display: flex;
+    margin: 40px 0;
+}
+
+.my-gif {
+    width: auto;
+    height: 500px;
+}
+
+/* /////////////////////////// HELP SECTION /////////////////////////// */
+.separator-help {
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+}
+
+.help-icon {
+    color: var(--gray-light);
+}
+
+.help-section {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+    padding: 40px;
+}
+
+
+.help-title {
+    width: 220px;
+    color: var(--dark-gray-text);
+}
+
+.help-title h1 {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.help-info {
+    width: 740px;
+    color: var(--dark-gray-text);
+    font-size: 14px;
 }
