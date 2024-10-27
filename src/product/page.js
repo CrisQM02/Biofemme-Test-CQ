@@ -29,9 +29,9 @@ const ProductPage = () => {
             <div className="directory">
                 <p className="dir-tab">Inicio</p>
                 <p className="dir-sep">/</p>
-                <p className="dir-tab">Productos</p>
+                <p className="dir-tab" onClick={()=>window.location.href = "https://compras.biofemme.com.ec/categoria-producto/productos/"}>Productos</p>
                 <p className="dir-sep">/</p>
-                <p className="dir-tab">{product.category}</p>
+                <p className="dir-tab" onClick={()=>window.location.href = product.category.url}>{product.category.name}</p>
                 <p className="dir-sep">/</p>
                 <p className="dir-tab">{product.name}</p>
             </div>
@@ -58,7 +58,7 @@ const ProductPage = () => {
                         }
                 </div>
                 <div className="how-to-use-media">
-                    {product.gif !== null && <div className="gif-section"><img className="my-gif" src={product.gif}/></div>}
+                    {product.gif !== null && <div className="gif-section"><img className="my-gif" alt="media-gif" src={product.gif}/></div>}
                     {product.youtube !== null && <div className="youtube-section"><YoutubeComponent link={product.youtube}/></div>}
                 </div>
             </div>
@@ -96,6 +96,11 @@ const ProductPage = () => {
                                 <br />
                             </div>
                     ))}</p>
+                    <div className="other-ingredients">
+                        <hr class="custom-separator" style={{borderTopColor: "var(--main-pink)", margin:"0px 20px", marginTop:"20px"}}></hr>
+                        <p onClick={()=>window.location.href = "https://biofemme.com.ec/ingredientes-bio-activos/"}>Conoce más sobre otros ingredientes Bio-Activos</p>
+                        <hr class="custom-separator" style={{borderTopColor: "var(--main-pink)", margin:"0px 20px", marginTop:"20px"}}></hr>
+                    </div>
                 </div>
             </div>
             <hr class="custom-separator" style={{borderTopColor: "var(--gray-light)", margin:"0px 200px", marginTop:"50px"}}></hr>

@@ -12,7 +12,7 @@ import g5 from "../assets/images/products_gifs/g5-tonique-revitalisant-spray.gif
 const products = [
     {id: 1, name: "LIFTING SERUM", type: "Sérum Tensor", description: "Proage | Todo tipo de piel",
         identifier: "lifting-serum-serum-tensor",
-        category: "Proage", effects: ["Efecto Inmediato", "Reduce Arrugas", "Make Up Primer"],
+        category: {name:"Proage", url:"https://compras.biofemme.com.ec/categoria-producto/productos/proage/"}, effects: ["Efecto Inmediato", "Reduce Arrugas", "Make Up Primer"],
         contains: null,
         usage: [{title: null, 
             steps: ["Realizar la rutina de cuidado facial habitual.", 
@@ -32,7 +32,7 @@ const products = [
 
     {id: 2, name: "SUNSCREEN 50+", type: "Bloqueador Solar", description: "Protección | Todo tipo de piel",
         identifier: "sunscreen-50-bloqueador-solar-50",
-        category: "Protección", effects: ["Acabado invisible", "Absorción inmediata", "Hidratante y Calmante", "Antiage"],
+        category: {name: "Protección", url: "https://compras.biofemme.com.ec/categoria-producto/productos/proteccion/"}, effects: ["Acabado invisible", "Absorción inmediata", "Hidratante y Calmante", "Antiage"],
         contains: null,
         usage: [{title: null, 
             steps: ["Aplicar 20 minutos antes de la exposición solar. Cantidad adecuada: dos dedos de la mano.",
@@ -55,7 +55,7 @@ const products = [
         
     {id: 3, name: "BIO BEAUTY OIL", type: "Aceite Seco Hidratante", description: "Hidratación | Todo tipo de piel",
         identifier: "bio-beauty-oil-aceite-seco-hidratante",
-        category: "Hidratación", effects: ["Hidrata, nutre y suaviza", "Cuerpo, rostro y cabello", "Absorción Inmediata"],
+        category: {name:"Hidratación", url:"https://compras.biofemme.com.ec/categoria-producto/productos/hidratacion/"}, effects: ["Hidrata, nutre y suaviza", "Cuerpo, rostro y cabello", "Absorción Inmediata"],
         contains: null,
         usage: [{title: "CORPORAL",
             steps:["Aplicar en todo el cuerpo para obtener una mayor hidratación, un efecto satinado y un olor muy agradable.",
@@ -100,7 +100,7 @@ const products = [
         
     {id: 4, name: "BIOFEMME MINI KIT", type: "Mini Sizes", description: "Sets | Piel mixta a grasa",
         identifier: "biofemme-mini-kit",
-        category: "BFKits", effects: null, 
+        category: {name:"BFKits", url:"https://compras.biofemme.com.ec/categoria-producto/bfkits/"}, effects: null, 
         contains: ["EYE MAKEUP REMOVER (Desmaquillante Bifásico de Ojos)", "EAU MICELLAIRE (Agua Micelar)", "GEL-CRÈME HYDRATANT (Gel-Crema Hidratante)"],
         usage: [{title: "EYE MAKEUP REMOVER",
             steps: ["Agitar bien antes de usar.",
@@ -144,7 +144,7 @@ const products = [
 
         {id: 5, name: "TONIQUE REVITALISANT", type: "Tónico Revitalizante", description: "Limpieza | Todo tipo de piel",
             identifier: "tonique-revitalisant-tonico-revitalizante",
-            category: "Limpieza", effects: ["Limpia profundamente", "Unifica el tono de la piel", "Mejora la elasticidad", "Energizante y antioxidante"],
+            category: {name:"Limpieza", url: "https://compras.biofemme.com.ec/categoria-producto/productos/limpieza/"}, effects: ["Limpia profundamente", "Unifica el tono de la piel", "Mejora la elasticidad", "Energizante y antioxidante"],
             contains: null,
             usage: [{title: null, 
                 steps: ["Humedecer un algodón con TONIQUE REVITALISANT o directamente sobre las manos limpias.", 

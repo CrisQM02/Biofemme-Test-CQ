@@ -126,6 +126,24 @@
     font-family: "comfortaa";
 }
 
+.other-ingredients {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--main-pink);
+    font-family: "comfortaa";
+    width: 400px;
+    margin: 0 20%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.other-ingredients p{
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
 /* ALSO INTERESTED SECTION */
 .also-interested-section {
     display: flex;
