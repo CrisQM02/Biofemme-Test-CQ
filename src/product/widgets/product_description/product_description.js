@@ -1,10 +1,15 @@
-import React, { useRef } from 'react';
+import "./product_description.css";
+
+import React, { useRef, useState } from 'react';
 import ExpandableLabel from "../expandable_label/expandable_label";
 import PurchaseDetail from "../purchase_detail/purchase_detail";
-import "./product_description.css";
+import ImageModal from '../../../widgets/image_modal/image-modal';
+import Icon from "@mdi/react";
+import { mdiMagnify } from '@mdi/js';
 
 const ProductDescription = ({ product }) => {
     const imageRef = useRef();
+    const [isModalOpen, setModalOpen] = useState(false);
 
     const handleMouseMove = (e) => {
         const { offsetX, offsetY } = e.nativeEvent;
@@ -20,6 +25,9 @@ const ProductDescription = ({ product }) => {
         imageRef.current.style.transform = `scale(1)`;
     };
 
+    const openModal = () => setModalOpen(true);
+    const closeModal = () => setModalOpen(false);
+
     return (
         <div className="product-description-section">
             <div className="image-zoom-container">
@@ -30,6 +38,9 @@ const ProductDescription = ({ product }) => {
                     onMouseMove={handleMouseMove}
                     onMouseLeave={handleMouseLeave}
                 />
+                <button className="open-modal-button" onClick={openModal}>
+                    <Icon className="zoom-img-icon" path={mdiMagnify} size={1}/>
+                </button>
             </div>
             <div className="main-info">
                 <div className="info-header">
@@ -92,6 +103,7 @@ const ProductDescription = ({ product }) => {
                         }</p>
                     } />
             </div>
+            <ImageModal isOpen={isModalOpen} onClose={closeModal} imgSrc={product.img} />
         </div>
     );
 }
