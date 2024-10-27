@@ -3,7 +3,16 @@ import "./my_footer.css";
 import logos from "../assets/images/logos-white.png";
 import payLogo from "../assets/images/paymentez-logo-1.png";
 
+import { useNavigate } from "react-router-dom";
+
 const MyFooter = ()=>{
+    const navigate = useNavigate();
+
+    const handleLogoClick = () => {
+        navigate("/");
+        window.scrollTo(0, 0);
+    };
+
     return(
         <div className="footer">
             <div className="footer-about">
@@ -30,7 +39,8 @@ const MyFooter = ()=>{
                             src={logos}
                             alt="logos"
                             className="logos-img"
-                            style={{ width: "360px", height: "auto" }}/>
+                            style={{ width: "360px", height: "auto", cursor: "pointer" }}
+                            onClick={handleLogoClick}/>
                         <p>BIOFEMME es una marca elaborada por CRESENS DERMOCOSMÉTICA y distribuida por LABORATORIOS ROCNARF.</p>
                     </div>
                     <div className="online-shop">
@@ -63,7 +73,8 @@ const MyFooter = ()=>{
                             src={payLogo}
                             alt="pay-logos"
                             className="pay-logos-img"
-                            style={{ width: "170px", height: "auto" }}/>
+                            style={{ width: "170px", height: "auto", cursor:"pointer" }}
+                            onClick={handleLogoClick}/>
                     </div>
                 </div>
             </div>

@@ -1,9 +1,5 @@
 import "./home.css";
 
-import MyFooter from "../widgets/my_footer";
-
-import { useEffect, useState } from "react";
-
 import MyCarrousel from "./widgets/my_carrousel/my_carrousel";
 import CategoryCard from "./widgets/categories/categories";
 import ProductsSection from "./widgets/products/products";

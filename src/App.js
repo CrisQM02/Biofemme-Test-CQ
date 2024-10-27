@@ -19,8 +19,8 @@ function App() {
           <Route path ='/' element = {<Home />}/>
           <Route path ='/producto/:identifier/' element = {<ProductPage/>}/>
         </Routes>
+        <MyFooter/>
       </Router>
-      <MyFooter/>
     </div>
   );
 }

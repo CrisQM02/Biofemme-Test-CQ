@@ -19,10 +19,16 @@
     font-size: 14px;
     font-weight: 400;
     padding: 0 10px;
+    transition: all 0.8s ease;
 }
 
 .search-links a:hover{
     color: var(--black);
+}
+
+.search-link-label {
+    display: flex;
+    align-items: center;
 }
 
 .search-bar {
@@ -79,3 +85,14 @@
     visibility: visible;
     opacity: 1;
 }
+
+/* DROPDOWN CONTAINER */
+.products-dropdown {
+    position: relative;
+}
+
+.products-link {
+    cursor: pointer;
+}
+
+
