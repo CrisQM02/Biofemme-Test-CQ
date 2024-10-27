@@ -12,6 +12,7 @@ import Icon from "@mdi/react";
 import { mdiHelpCircleOutline } from '@mdi/js';
 import ProductValue from './widgets/product_value/product_value.js';
 import ProductInterestedCard from './widgets/product_card_interested/product_card_interested.js';
+import YoutubeComponent from '../widgets/youtube_component.js';
 
 
 const ProductPage = () => {
@@ -58,6 +59,7 @@ const ProductPage = () => {
                 </div>
                 <div className="how-to-use-media">
                     {product.gif !== null && <div className="gif-section"><img className="my-gif" src={product.gif}/></div>}
+                    {product.youtube !== null && <div className="youtube-section"><YoutubeComponent link={product.youtube}/></div>}
                 </div>
             </div>
             <div className="separator-help">
