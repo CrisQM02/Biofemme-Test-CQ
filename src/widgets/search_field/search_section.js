@@ -5,14 +5,22 @@ import MySearchField from "./search_field";
 import bioLogo from "../../assets/images/Biofemme_Logo.png";
 
 import "./search_section.css";
+import { useNavigate } from "react-router-dom";
 
 const SearchSection = () => {
+    const navigate = useNavigate();
+
+    const handleLogoClick = () => {
+        navigate("/");
+    };
+
     return (<div className="search-section">
         <img
             src={bioLogo}
             alt="bioLogo"
             className="bio-logo-img"
-            style={{ width: "auto", height: "66px", marginLeft: "105px" }}/>
+            style={{ width: "auto", height: "66px", marginLeft: "105px", cursor:"pointer" }}
+            onClick={handleLogoClick}/>
         <div className="search-links">
             <a
                 className="shop-link"

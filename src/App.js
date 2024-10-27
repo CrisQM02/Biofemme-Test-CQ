@@ -10,9 +10,9 @@ import ProductPage from './product/page';
 function App() {
   return (
     <div className="App">
-      <MyAppBar/>
-      <SearchSection/>
       <Router>
+        <MyAppBar/>
+        <SearchSection/>
         <Routes>
           <Route path ='/' element = {<Home />}/>
           <Route path ='/producto/:identifier/' element = {<ProductPage/>}/>

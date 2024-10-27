@@ -87,9 +87,12 @@ const ProductPage = () => {
                     <p>{product.properties}</p>
                 </div>
             </div>
-            <hr class="custom-separator" style={{borderTopColor: "var(--gray-light)", margin:"50px 200px"}}></hr>
+            <hr class="custom-separator" style={{borderTopColor: "var(--gray-light)", margin:"0px 200px", marginTop:"50px"}}></hr>
             <ProductValue product={product}/>
             <hr class="custom-separator" style={{borderTopColor: "var(--gray-light)", margin:"50px 200px"}}></hr>
+            <div className="also-interested-section">
+                <h1>TAMBIÉN TE PUEDE INTERESAR</h1>
+            </div>
         </div>
     )
 }

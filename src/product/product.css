@@ -121,3 +121,17 @@
     color: var(--dark-gray-text);
     font-size: 14px;
 }
+
+/* ALSO INTERESTED SECTION */
+.also-interested-section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+}
+
+.also-interested-section h1{
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--dark-gray-text);
+    margin-bottom: 28px;
+}

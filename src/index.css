@@ -13,6 +13,7 @@
   --lighter-black: #201C23;
   --black: #000000;
   --white: #ffffff;
+  --icon-gray: #CCD6DF;
 }
 
 body {
@@ -47,4 +48,13 @@ code {
   border-top: 1.5px solid;
   border-top-color: var(--separator-color, var(--pink-darker));
   width: 80%;
+}
+
+@font-face {
+  font-family: comfortaa;
+  src: url(./assets/fonts/Comfortaa-VariableFont_wght.ttf);
+}
+
+.comfortaa {
+  font-family: comfortaa;
 }
